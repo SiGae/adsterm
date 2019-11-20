@@ -40,7 +40,7 @@
     * 필드
 
             - nodeName : int - 노드의 이름을 저장
-            - pastName : Node - 해당노드를 
+            - pastName : Node - 해당노드를 호출한 노드를 기록
             - availableNode : ArrayList<Node> - 현재 노드에서 갈 수 있는 노드들
             - weightNode : ArrayList<Float> - 갈 수 있는 노드들의 가중치
             - convertWeight : arrayList<Float> - 1.0 - 가중치
