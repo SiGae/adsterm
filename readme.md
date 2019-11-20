@@ -1,5 +1,5 @@
 #  고급자료구조 Term Project 최종 설명서
-
+---
 ## 목차
 1. 개요
 2. 개발 환경
@@ -12,7 +12,7 @@
     * BFS 알고리즘
 6. 사용 자료구조, 알고리즘
 
-
+---
 ## 1. 개요
 
 * ### 주제
@@ -21,6 +21,7 @@
     1. Single Source Shortest Path 알고리즘을 이용하여 최소패스와 가중치 합을 출력
     2. BFS 알고리즘을 이용하여 최소패스와 가중치 합을 출력
     3. 패스가 없는 경우 "도달 불가능" 출력
+---
 ## 2. 개발 환경
 * ### 사용 OS
     * macOS 10.14 Mojave,
@@ -32,6 +33,7 @@
     JDK 11
 * ### 사용 IDE
     Jetbrains intelliJ IDEA 2019.2
+---
 ## 3. 클래스 설명
 * ### Node
 
@@ -80,7 +82,7 @@
             + BFS(int) : void - BFS 알고리즘을 수행
             + SSSP(int) : void - Single Source Shortest Path 알고리즘을 수행
             + printPath(int, int, ArrayList<Node>) : void - 경로와 가중치 합을 수행
-
+---
 ## 4. 알고리즘 설명
 - ### BFS
         1. nodeQueue를 dequeue
@@ -100,6 +102,7 @@
         7. 해당 노드가 movableList에 없을 경우 해당 노드의 pastNode값을 model로 할당하고 cost와 convert노드의 값을 각각 입력
         8. movableList내부의 노드중 convertCost가 가장 낮은 노드를 모델에 입력 
         9. model의 nodeName이 도착지점 노드의 번호와 일치할때까지 3~8 반복
+---
 ## 5. 사용 자료구조, 알고리즘
 - BFS
 
