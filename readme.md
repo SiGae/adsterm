@@ -23,9 +23,9 @@
     3. 패스가 없는 경우 "도달 불가능" 출력
 ## 2. 개발 환경
 * ### 사용 OS
-    macOS 10.14 Mojave,
-    macOS 10.15 Catalina
-    Windows 10 1903
+    * macOS 10.14 Mojave,
+    * macOS 10.15 Catalina,
+    * Windows 10 1903
 * ### 사용 언어
     Java
 * ### 사용 JDK
